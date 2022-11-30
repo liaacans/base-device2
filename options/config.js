@@ -1,8 +1,8 @@
 /* 
 NOTE : JGN HPS DIBAWAH INI!!
-RECODE : RAHMXBOT X RAHMAN GNTENG:V
-WHATSAPP : 085821676621
-NOMOR BOT : 085821369324
+RECODE : Michat
+WHATSAPP : 085725903106
+NOMOR BOT : 085728625807
 NOTE : JGN HPS AUTHORNYA!!!
 
 DONASI LAH BANG BIAR 
@@ -11,7 +11,7 @@ ADMINNYA UPDATE LAGI
 Kalau Mau Donasi Silahkan Pilih Yah
 Payment : Ovo/Gopay/Dana
 Number Payment : Chat Owner Wa nya Di Atas
-Pulsa : 081528965381
+Pulsa : 085725903106
 */
 
 const fs = require('fs')
@@ -31,17 +31,17 @@ global.APIKeys = {
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 global.thumb = fs.readFileSync('./image/thumbnail.jpg') // JGN DI UBAH!
-global.name = 'Aulia Rahman (Owner)', // GNTI NAMA LU!
-global.creator = 'LiaaCans BOT' // GANTI NAMA BOT LU BANH!
-global.owner = ['6285821676621'] // GNTI NOMOR LU!
-global.premium = ['6285821676621', '6281528965381']
+global.name = 'Yogzz (Owner)', // GNTI NAMA LU!
+global.creator = 'FreeBotz' // GANTI NAMA BOT LU BANH!
+global.owner = ['6285725903106'] // GNTI NOMOR LU!
+global.premium = ['6285725903106', '6285728625807']
  // ADD PREM YG LU MAU BANH!!
 global.quotes = 'Kesempatan Anda Untuk Sukses Di Setiap Kondisi Selalu Dapat Diukur Oleh Seberapa Besar Kepercayaan Anda Pada Diri Sendiri' // Ganti Quotes, Tapi Trsrh Klian
-global.pulsa = ['081528965381'] // UBAH NOMOR YG AKTIF!
+global.pulsa = ['085728625807'] // UBAH NOMOR YG AKTIF!
 global.botname = 'Created LiaaCans BOT' // GNTI NAMA BOT LU!
 global.packname = 'Nih Stikel Umtukmu' // TRSERAH MO GANTI AP!
-global.author = 'LiaaCans BOT' // GNTI NMA LU!
-global.fake = 'LIAACANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
+global.author = 'FreeBotz' // GNTI NMA LU!
+global.fake = 'FreeBotz VERIFIED' // GNTI NMA BOT LU BANH!
 // FITUR TOPUP OTOMATIS 
 global.hargadmff = 1261
 global.hargadmml = 1700
