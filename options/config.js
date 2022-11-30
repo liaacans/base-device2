@@ -31,17 +31,17 @@ global.APIKeys = {
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 global.thumb = fs.readFileSync('./image/thumbnail.jpg') // JGN DI UBAH!
-global.name = 'Aulia Rahman (Owner)', // GNTI NAMA LU!
-global.creator = 'LiaaCans BOT' // GANTI NAMA BOT LU BANH!
-global.owner = ['6285821676621'] // GNTI NOMOR LU!
-global.premium = ['6285821676621', '6281528965381']
+global.name = 'Ari Bot (Owner)', // GNTI NAMA LU!
+global.creator = 'AriGans BOT' // GANTI NAMA BOT LU BANH!
+global.owner = ['6285266417064'] // GNTI NOMOR LU!
+global.premium = ['6285266417064', '6283145052339']
  // ADD PREM YG LU MAU BANH!!
 global.quotes = 'Kesempatan Anda Untuk Sukses Di Setiap Kondisi Selalu Dapat Diukur Oleh Seberapa Besar Kepercayaan Anda Pada Diri Sendiri' // Ganti Quotes, Tapi Trsrh Klian
-global.pulsa = ['081528965381'] // UBAH NOMOR YG AKTIF!
-global.botname = 'Created LiaaCans BOT' // GNTI NAMA BOT LU!
-global.packname = 'Nih Stikel Umtukmu' // TRSERAH MO GANTI AP!
-global.author = 'LiaaCans BOT' // GNTI NMA LU!
-global.fake = 'LIAACANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
+global.pulsa = ['085266417064'] // UBAH NOMOR YG AKTIF!
+global.botname = 'Created AriGans BOT' // GNTI NAMA BOT LU!
+global.packname = 'Nih Stiker Nya Tod' // TRSERAH MO GANTI AP!
+global.author = 'AriGans BOT' // GNTI NMA LU!
+global.fake = 'ARIGANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
 // FITUR TOPUP OTOMATIS 
 global.hargadmff = 1261
 global.hargadmml = 1700
