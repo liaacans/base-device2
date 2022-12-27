@@ -1707,7 +1707,7 @@ Note : Jangan Spam Bot Dan
 Call, Jika Tidak Ingin Di Block Bot`
 const listMessage = {
   text: menunyaa,
-  footer: "© Created By LiaaCans BOT",
+  footer: "© Created by Kizu-MD",
   buttonText: "Klik Disini",
   sections
 }
@@ -2022,7 +2022,7 @@ let buttons = [{ buttonId: 'menu', buttonText: { displayText: '️BACK MENU' }, 
 case 'donasi': {
 if (cekUser("id", m.sender) == null) throw mess.user
 let kafloc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `${global.fake}`,jpegThumbnail: global.thumb}}}
-donasi = `*「 🐰DONASI BY LIAACANS🐰 」*
+donasi = `*「 🐰DONASI BY NAIN OFC🐰 」*
 
 • Payment : Ovo/Dana/Gopay
 • Nomor Payment : Cht Owner!
@@ -3708,7 +3708,7 @@ if (!m.isGroup) throw mess.group
 if (!isCreator) throw mess.owner
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT LIAACANS BOT",
+"name": "HALO 👋 SAYA KIZU BOT",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -3723,7 +3723,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM BROTHER BY LIAACANS BOT"
+"optionName": "SALAM BROTHER BY NAIN OFC"
 	}
 ],
 "selectableOptionsCount": 5
@@ -3743,7 +3743,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 						"status": "INQUIRY",
 						"surface": "CATALOG",
 						"priceAmount1000": "10000000",
-						"message": `©LiaaCans BOT`,
+						"message": `©Kizu-MD`,
 "jpegThumbnail":fs.readFileSync('./image/thumbnail.jpg'),
 "orderTitle": `Bug By Hw Mods`,
 						"sellerJid": "6285714170944@s.whatsapp.net",
@@ -3769,7 +3769,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `©LiaaCans BOT`,
+"text": `©Kizu-MD`,
 }
 }}), { userJid: m.chat, quoted: doc })
 liaacans.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -3791,7 +3791,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `Created ©LiaaCans BOT`,
+"text": `Created ©NainOfc`,
 }
 }}), { userJid: m.chat, quoted: doc })
 liaacans.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -3945,10 +3945,10 @@ if (!isCreator) throw mess.owner
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./image/thumbnail.jpg') }, { upload: liaacans.waUploadToServer })
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": "https://wa.me/6285821676621",
-"matchedText": "https://wa.me/6285821676621",
+"text": "https://wa.me/6288223674569",
+"matchedText": "https://wa.me/6288223674569",
 "description": "Beli Sc Bug? Chat Wa Owner Ya Kak",
-"title": `© LiaaCans BOT`,
+"title": `© Kizu-MD`,
 "previewType": "NONE",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -3961,7 +3961,7 @@ if (!m.isGroup) throw mess.group
 if (!isCreator) throw mess.owner
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `© LiaaCans BOT`,
+"displayName": `© Kizu-MD`,
 "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:liaacans\nitem1.TEL;waid=6285714170944:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer RAHXMODSWhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:liaacans\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: doc })
@@ -3976,7 +3976,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© LiaaCans BOT`,
+"caption": `© Kizu-MD`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -4007,7 +4007,7 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `Bug By RahmxMods`,
+"inviteExpiration": `Bug By NainOfc`,
 "groupName": `Awoaawokaowk`,
 "caption": `${global.creator}`,
 "jpegThumbnail": messa.imageMessage,
@@ -4048,7 +4048,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© Bug By Rahmxmods`,
+"title": `© Bug By NainOfc`,
 "description": `© Awokaowk`,
 "currencyCode": "IDR",
 "footerText": `© ${global.creator}`,
@@ -4078,7 +4078,7 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© Bug By RAHMXMODS`,
+"title": `© Bug By NainOfc`,
 "description": `© AwoKaok`,
 "currencyCode": "IDR",
 "footerText": `© ${global.creator}`,
@@ -4147,7 +4147,7 @@ if (!isCreator) throw mess.owner
 if (!m.isGroup) throw mess.group
 if (args.length == 0) return anjay(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku LiaaCans`
+ydd = `Hallo Aku Kizu-MD`
 for (let i = 0; i < jumlah; i++) {
 liaacans.sendMessage(m.chat, {sticker: global.thumb},{quoted: {
 key: { 
@@ -4180,7 +4180,7 @@ if (!isCreator) throw mess.owner
 if (!m.isGroup) throw mess.group
 if (args.length == 0) return anjay(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku LiaaCans`
+ydd = `Hallo Aku Kizu-MD`
 for (let i = 0; i < jumlah; i++) {
 liaacans.sendMessage(m.chat, {document: global.thumb},{quoted: {
 key: {
@@ -4381,7 +4381,7 @@ Jika Sudah Melakukan Pemilihan Nominal, Anda Akan Dikirimkan Qris Pembayaran Dan
 Jika Anda Sudah Melakukan Pembayaran, Silahkan Tunggu 1-5 Menit Dan Melakukan Pengecekan Secara Berkala Pada Saldo Anda!.`
 const listMessage = {
   text: isian,
-  footer: "Created By LiaaCans BOT",
+  footer: "Created By Kizu-MD",
   title: "━━[ Nominal saldo Shopeepay ]━━",
   buttonText: "Klik Disini",
   sections
@@ -4484,7 +4484,7 @@ Jika Sudah Melakukan Pemilihan Nominal, Anda Akan Dikirimkan Qris Pembayaran Dan
 Jika Anda Sudah Melakukan Pembayaran, Silahkan Tunggu 1-2 Menit Dan Melakukan Pengecekan Secara Berkala Pada Saldo Anda!.`
 const listMessage = {
   text: isian,
-  footer: "Created By LiaaCans BOT",
+  footer: "Created By Kizu-MD",
   title: "━━[ Nominal saldo Ovo ]━━",
   buttonText: "Klik Disini",
   sections
@@ -4547,7 +4547,7 @@ _》Id : ${m.sender.replace("@s.whatsapp.net", "")}_
 Note: Owner Paling Gnteng/Cntip`
 const listMessage = {
   text: isian,
-  footer: "Created By LiaaCans BOT",
+  footer: "Created By Kizu-MD",
   title: "━━[ List Topup LiaaCans ]━━",
   buttonText: "Klik Disini",
   sections
@@ -6248,7 +6248,7 @@ Bot gw jalan awokawoak
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
 Owner  BOTZ:
-wa.me/6285821676621
+wa.me/6288223674569
 `
              m.reply(rulesBot)
              break
@@ -6279,7 +6279,7 @@ case 'order':
                 }
 const listMessage = {
   text: `Pilih layanan sesuai dengan yang anda inginkan!\nBerikut adalah list yang bisa anda pilih, silahkan!.`,
-  footer: "© Created By LiaaCans BOT",
+  footer: "© Created By Kizu-MD",
   buttonText: "Click Here!",
   sections: [{
                     title: "Sosmed Store",
@@ -6311,7 +6311,7 @@ const sendMsg = await liaacans.sendMessage(m.chat, listMessage)
                 }
 const listMessage = {
   text: `Pilih layanan sesuai dengan yang anda inginkan!\nBerikut adalah list yang bisa anda pilih, silahkan!.`,
-  footer: "© Created By LiaaCans BOT",
+  footer: "© Created By Kizu-MD",
   buttonText: "Click Here!",
   sections: [{
                     title: "Sosmed Store",
@@ -6342,7 +6342,7 @@ case 'view': { // Fix Aja Kalau Bisa
                 }
 const listMessage = {
   text: `Pilih layanan sesuai dengan yang anda inginkan!\nBerikut adalah list yang bisa anda pilih, silahkan!.`,
-  footer: "© Created By LiaaCans BOT",
+  footer: "© Created By Kizu-MD",
   buttonText: "Click Here!",
   sections: [{
                     title: "Sosmed Store",
@@ -6562,7 +6562,7 @@ break
             }
 const listMessage = {
   text: `${pushname} 👋\nBerikut Adalah List Item\nSilahkan Pilih Salah Satu!\n🕰 Jam : ${moment().format("HH:mm:ss z")} `,
-  footer: "© Created By LiaaCans BOT",
+  footer: "© Created By Kizu-MD",
   buttonText: "Click Here!",
   sections: [{
                     title: groupName, rows: arr_rows
@@ -6686,7 +6686,7 @@ liaacans.sendMessage(m.chat, { image: {url: anu}, caption: 'Done!'}, {quoted:m})
 break
 case 'sewabot': {
 if (cekUser("id", m.sender) == null) throw mess.user
-sewabot = `⌜  LIST SEWA LIAACANS BOT ⌟
+sewabot = `⌜  LIST SEWA KIZU BOT ⌟
 
 HARGA :
 RP 5.000 → 20 DAY
@@ -6695,7 +6695,7 @@ RP 25.000 → PERMANEN
 
 APA ITU DAY? DAY ITU ADALAH HARI!
 
-⌜ KEUNTUNGAN SEWA LIAACANS BOT ⌟
+⌜ KEUNTUNGAN SEWA KIZU BOT ⌟
 
 → BISA ADD BOT 1 GROUP
 → BISA GUNAIN FITUR ADMIN
@@ -6858,7 +6858,7 @@ break
 
 //---------------[ AUTO RESPON ]------------------//
 
-case 'rahman':{
+case 'Dika':{
 m.reply(`apasi manggil² owner bot? kangen ya??`)
 }
 break
